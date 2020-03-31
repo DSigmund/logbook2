@@ -1,0 +1,23 @@
+{
+  "name": "my-logbook",
+  "version": "1.0.0",
+  "description": "My simple logbook. Command Line Generation and a HTML output",
+  "main": "index.js",
+  "bin": {
+    "l": "./index.js",
+    "createBook": "./create-html.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logbook",
+    "cli"
+  ],
+  "author": "Dominik Sigmund <dominik.sigmund@webdad.eu>",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DSigmund/logbook.git"
+  }
+}
